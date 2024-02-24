@@ -19,7 +19,7 @@ public class Main {
 
         double mortgage = calculateMortgage(principal,annualInterest,years);
 
-        String result = NumberFormat.getCurrencyInstance().format(mortgage);;
+        String result = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println("Mortgage: " +result);
 
     }
